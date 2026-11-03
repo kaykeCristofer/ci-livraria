@@ -122,20 +122,6 @@ export const books = [
     cover: { bg: '#E4572E', fg: '#FFF6EE', accent: '#FFD166', pattern: 'arc' },
   },
   {
-    isbn: '978-8550802732',
-    title: 'O Mítico Homem-Mês',
-    subtitle: 'Ensaios sobre engenharia de software',
-    author: 'Frederick P. Brooks Jr.',
-    authorShort: 'Fred Brooks',
-    year: 1975,
-    category: 'Clássicos',
-    price: 89.9,
-    pages: 336,
-    blurb:
-      '“Adicionar pessoas a um projeto atrasado o atrasa ainda mais.” Ensaios de quem gerenciou o OS/360 e que seguem descrevendo projetos de hoje.',
-    cover: { bg: '#3B3A36', fg: '#EFE7D6', accent: '#B8432F', pattern: 'circles' },
-  },
-  {
     isbn: '978-8582600320',
     title: 'Trabalho Eficaz com Código Legado',
     author: 'Michael Feathers',
