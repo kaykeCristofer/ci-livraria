@@ -5,7 +5,7 @@ def test_add_e_total():
     cart = ShoppingCart()
     cart.add(Book("Livro 1", 10.0, "1"))
     cart.add(Book("Livro 2", 20.0, "2"))
-    assert cart.total() == 31.0
+    assert cart.total() == 30.0
 
 
 def test_remove():
