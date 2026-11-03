@@ -166,7 +166,7 @@ export const categories = ['Todos', ...new Set(books.map((b) => b.category))]
 
 export const bookByIsbn = Object.fromEntries(books.map((b) => [b.isbn, b]))
 
-export const FREE_SHIPPING = 250
+export const FREE_SHIPPING = 100
 
 export const formatPrice = (value) =>
   value.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })
